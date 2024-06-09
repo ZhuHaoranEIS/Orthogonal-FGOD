@@ -1,0 +1,4 @@
+# These must be installed before building mmrotate
+cython
+numpy
+ninja

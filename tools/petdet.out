@@ -1,0 +1,680 @@
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+load checkpoint from local path: /home/zhr/PETDet/work_dirs/petdet_r50_fpn_100e_shiprs3_le90/epoch_100.pth
+[                                                  ] 0/550, elapsed: 0s, ETA:/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/PETDet/mmrotate/utils/setup_env.py:39: UserWarning: Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  f'Setting OMP_NUM_THREADS environment variable for each process '
+/home/zhr/PETDet/mmrotate/utils/setup_env.py:49: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  f'Setting MKL_NUM_THREADS environment variable for each process '
+[                                 ] 1/550, 0.5 task/s, elapsed: 2s, ETA:  1087s[                                 ] 2/550, 1.0 task/s, elapsed: 2s, ETA:   557s[                                 ] 3/550, 1.4 task/s, elapsed: 2s, ETA:   381s[                                 ] 4/550, 1.9 task/s, elapsed: 2s, ETA:   292s[                                 ] 5/550, 2.3 task/s, elapsed: 2s, ETA:   238s[                                 ] 6/550, 2.7 task/s, elapsed: 2s, ETA:   202s[                                 ] 7/550, 3.1 task/s, elapsed: 2s, ETA:   176s[                                 ] 8/550, 3.4 task/s, elapsed: 2s, ETA:   157s[                                 ] 9/550, 3.8 task/s, elapsed: 2s, ETA:   142s[                                ] 10/550, 4.1 task/s, elapsed: 2s, ETA:   130s[                                ] 11/550, 4.5 task/s, elapsed: 2s, ETA:   121s[                                ] 12/550, 4.8 task/s, elapsed: 3s, ETA:   112s[                                ] 13/550, 5.1 task/s, elapsed: 3s, ETA:   105s[                                ] 14/550, 5.4 task/s, elapsed: 3s, ETA:    99s[                                ] 15/550, 5.7 task/s, elapsed: 3s, ETA:    94s[                                ] 16/550, 6.0 task/s, elapsed: 3s, ETA:    90s[                                ] 17/550, 6.2 task/s, elapsed: 3s, ETA:    86s[>                               ] 18/550, 6.5 task/s, elapsed: 3s, ETA:    82s[>                               ] 19/550, 6.7 task/s, elapsed: 3s, ETA:    79s[>                               ] 20/550, 6.9 task/s, elapsed: 3s, ETA:    76s[>                               ] 21/550, 7.2 task/s, elapsed: 3s, ETA:    74s[>                               ] 22/550, 7.4 task/s, elapsed: 3s, ETA:    72s[>                               ] 23/550, 7.6 task/s, elapsed: 3s, ETA:    70s[>                               ] 24/550, 7.8 task/s, elapsed: 3s, ETA:    68s[>                               ] 25/550, 8.0 task/s, elapsed: 3s, ETA:    66s[>                               ] 26/550, 8.2 task/s, elapsed: 3s, ETA:    64s[>                               ] 27/550, 8.4 task/s, elapsed: 3s, ETA:    62s[>                               ] 28/550, 8.6 task/s, elapsed: 3s, ETA:    61s[>                               ] 29/550, 8.8 task/s, elapsed: 3s, ETA:    60s[>                               ] 30/550, 8.9 task/s, elapsed: 3s, ETA:    58s[>                               ] 31/550, 9.0 task/s, elapsed: 3s, ETA:    57s[>                               ] 32/550, 9.2 task/s, elapsed: 3s, ETA:    56s[>                               ] 33/550, 9.4 task/s, elapsed: 4s, ETA:    55s[>                               ] 34/550, 9.6 task/s, elapsed: 4s, ETA:    54s[>>                              ] 35/550, 9.7 task/s, elapsed: 4s, ETA:    53s[>>                              ] 36/550, 9.9 task/s, elapsed: 4s, ETA:    52s[>>                             ] 37/550, 10.0 task/s, elapsed: 4s, ETA:    51s[>>                             ] 38/550, 10.2 task/s, elapsed: 4s, ETA:    50s[>>                             ] 39/550, 10.3 task/s, elapsed: 4s, ETA:    50s[>>                             ] 40/550, 10.4 task/s, elapsed: 4s, ETA:    49s[>>                             ] 41/550, 10.6 task/s, elapsed: 4s, ETA:    48s[>>                             ] 42/550, 10.7 task/s, elapsed: 4s, ETA:    47s[>>                             ] 43/550, 10.9 task/s, elapsed: 4s, ETA:    47s[>>                             ] 44/550, 11.0 task/s, elapsed: 4s, ETA:    46s[>>                             ] 45/550, 11.1 task/s, elapsed: 4s, ETA:    45s[>>                             ] 46/550, 11.2 task/s, elapsed: 4s, ETA:    45s[>>                             ] 47/550, 11.4 task/s, elapsed: 4s, ETA:    44s[>>                             ] 48/550, 11.5 task/s, elapsed: 4s, ETA:    44s[>>                             ] 49/550, 11.6 task/s, elapsed: 4s, ETA:    43s[>>                             ] 50/550, 11.7 task/s, elapsed: 4s, ETA:    43s[>>                             ] 51/550, 11.8 task/s, elapsed: 4s, ETA:    42s[>>                             ] 52/550, 11.9 task/s, elapsed: 4s, ETA:    42s[>>                             ] 53/550, 12.0 task/s, elapsed: 4s, ETA:    41s[>>>                            ] 54/550, 12.1 task/s, elapsed: 4s, ETA:    41s[>>>                            ] 55/550, 12.2 task/s, elapsed: 5s, ETA:    41s[>>>                            ] 56/550, 12.3 task/s, elapsed: 5s, ETA:    40s[>>>                            ] 57/550, 12.4 task/s, elapsed: 5s, ETA:    40s[>>>                            ] 58/550, 12.5 task/s, elapsed: 5s, ETA:    39s[>>>                            ] 59/550, 12.6 task/s, elapsed: 5s, ETA:    39s[>>>                            ] 60/550, 12.7 task/s, elapsed: 5s, ETA:    39s[>>>                            ] 61/550, 12.8 task/s, elapsed: 5s, ETA:    38s[>>>                            ] 62/550, 12.9 task/s, elapsed: 5s, ETA:    38s[>>>                            ] 63/550, 13.0 task/s, elapsed: 5s, ETA:    38s[>>>                            ] 64/550, 13.1 task/s, elapsed: 5s, ETA:    37s[>>>                            ] 65/550, 13.1 task/s, elapsed: 5s, ETA:    37s[>>>                            ] 66/550, 13.2 task/s, elapsed: 5s, ETA:    37s[>>>                            ] 67/550, 13.3 task/s, elapsed: 5s, ETA:    36s[>>>                            ] 68/550, 13.3 task/s, elapsed: 5s, ETA:    36s[>>>                            ] 69/550, 13.4 task/s, elapsed: 5s, ETA:    36s[>>>                            ] 70/550, 13.5 task/s, elapsed: 5s, ETA:    36s[>>>>                           ] 71/550, 13.6 task/s, elapsed: 5s, ETA:    35s[>>>>                           ] 72/550, 13.7 task/s, elapsed: 5s, ETA:    35s[>>>>                           ] 73/550, 13.7 task/s, elapsed: 5s, ETA:    35s[>>>>                           ] 74/550, 13.8 task/s, elapsed: 5s, ETA:    35s[>>>>                           ] 75/550, 13.9 task/s, elapsed: 5s, ETA:    34s[>>>>                           ] 76/550, 13.9 task/s, elapsed: 5s, ETA:    34s[>>>>                           ] 77/550, 14.0 task/s, elapsed: 6s, ETA:    34s[>>>>                           ] 78/550, 14.0 task/s, elapsed: 6s, ETA:    34s[>>>>                           ] 79/550, 14.1 task/s, elapsed: 6s, ETA:    33s[>>>>                           ] 80/550, 14.2 task/s, elapsed: 6s, ETA:    33s[>>>>                           ] 81/550, 14.2 task/s, elapsed: 6s, ETA:    33s[>>>>                           ] 82/550, 14.3 task/s, elapsed: 6s, ETA:    33s[>>>>                           ] 83/550, 14.3 task/s, elapsed: 6s, ETA:    33s[>>>>                           ] 84/550, 14.4 task/s, elapsed: 6s, ETA:    32s[>>>>                           ] 85/550, 14.4 task/s, elapsed: 6s, ETA:    32s[>>>>                           ] 86/550, 14.5 task/s, elapsed: 6s, ETA:    32s[>>>>                           ] 87/550, 14.6 task/s, elapsed: 6s, ETA:    32s[>>>>                           ] 88/550, 14.6 task/s, elapsed: 6s, ETA:    32s[>>>>>                          ] 89/550, 14.7 task/s, elapsed: 6s, ETA:    31s[>>>>>                          ] 90/550, 14.7 task/s, elapsed: 6s, ETA:    31s[>>>>>                          ] 91/550, 14.8 task/s, elapsed: 6s, ETA:    31s[>>>>>                          ] 92/550, 14.8 task/s, elapsed: 6s, ETA:    31s[>>>>>                          ] 93/550, 14.9 task/s, elapsed: 6s, ETA:    31s[>>>>>                          ] 94/550, 14.9 task/s, elapsed: 6s, ETA:    31s[>>>>>                          ] 95/550, 15.0 task/s, elapsed: 6s, ETA:    30s[>>>>>                          ] 96/550, 15.0 task/s, elapsed: 6s, ETA:    30s[>>>>>                          ] 97/550, 15.0 task/s, elapsed: 6s, ETA:    30s[>>>>>                          ] 98/550, 15.1 task/s, elapsed: 6s, ETA:    30s[>>>>>                          ] 99/550, 15.1 task/s, elapsed: 7s, ETA:    30s[>>>>>                         ] 100/550, 15.2 task/s, elapsed: 7s, ETA:    30s[>>>>>                         ] 101/550, 15.2 task/s, elapsed: 7s, ETA:    29s[>>>>>                         ] 102/550, 15.3 task/s, elapsed: 7s, ETA:    29s[>>>>>                         ] 103/550, 15.3 task/s, elapsed: 7s, ETA:    29s[>>>>>                         ] 104/550, 15.4 task/s, elapsed: 7s, ETA:    29s[>>>>>                         ] 105/550, 15.4 task/s, elapsed: 7s, ETA:    29s[>>>>>                         ] 106/550, 15.4 task/s, elapsed: 7s, ETA:    29s[>>>>>                         ] 107/550, 15.5 task/s, elapsed: 7s, ETA:    29s[>>>>>                         ] 108/550, 15.5 task/s, elapsed: 7s, ETA:    28s[>>>>>                         ] 109/550, 15.6 task/s, elapsed: 7s, ETA:    28s[>>>>>>                        ] 110/550, 15.6 task/s, elapsed: 7s, ETA:    28s[>>>>>>                        ] 111/550, 15.7 task/s, elapsed: 7s, ETA:    28s[>>>>>>                        ] 112/550, 15.7 task/s, elapsed: 7s, ETA:    28s[>>>>>>                        ] 113/550, 15.7 task/s, elapsed: 7s, ETA:    28s[>>>>>>                        ] 114/550, 15.8 task/s, elapsed: 7s, ETA:    28s[>>>>>>                        ] 115/550, 15.8 task/s, elapsed: 7s, ETA:    28s[>>>>>>                        ] 116/550, 15.9 task/s, elapsed: 7s, ETA:    27s[>>>>>>                        ] 117/550, 15.9 task/s, elapsed: 7s, ETA:    27s[>>>>>>                        ] 118/550, 15.9 task/s, elapsed: 7s, ETA:    27s[>>>>>>                        ] 119/550, 16.0 task/s, elapsed: 7s, ETA:    27s[>>>>>>                        ] 120/550, 16.0 task/s, elapsed: 7s, ETA:    27s[>>>>>>                        ] 121/550, 16.0 task/s, elapsed: 8s, ETA:    27s[>>>>>>                        ] 122/550, 16.1 task/s, elapsed: 8s, ETA:    27s[>>>>>>                        ] 123/550, 16.1 task/s, elapsed: 8s, ETA:    27s[>>>>>>                        ] 124/550, 16.1 task/s, elapsed: 8s, ETA:    26s[>>>>>>                        ] 125/550, 16.2 task/s, elapsed: 8s, ETA:    26s[>>>>>>                        ] 126/550, 16.2 task/s, elapsed: 8s, ETA:    26s[>>>>>>                        ] 127/550, 16.3 task/s, elapsed: 8s, ETA:    26s[>>>>>>                        ] 128/550, 16.3 task/s, elapsed: 8s, ETA:    26s[>>>>>>>                       ] 129/550, 16.3 task/s, elapsed: 8s, ETA:    26s[>>>>>>>                       ] 130/550, 16.3 task/s, elapsed: 8s, ETA:    26s[>>>>>>>                       ] 131/550, 16.4 task/s, elapsed: 8s, ETA:    26s[>>>>>>>                       ] 132/550, 16.4 task/s, elapsed: 8s, ETA:    25s[>>>>>>>                       ] 133/550, 16.4 task/s, elapsed: 8s, ETA:    25s[>>>>>>>                       ] 134/550, 16.5 task/s, elapsed: 8s, ETA:    25s[>>>>>>>                       ] 135/550, 16.5 task/s, elapsed: 8s, ETA:    25s[>>>>>>>                       ] 136/550, 16.5 task/s, elapsed: 8s, ETA:    25s[>>>>>>>                       ] 137/550, 16.5 task/s, elapsed: 8s, ETA:    25s[>>>>>>>                       ] 138/550, 16.6 task/s, elapsed: 8s, ETA:    25s[>>>>>>>                       ] 139/550, 16.6 task/s, elapsed: 8s, ETA:    25s[>>>>>>>                       ] 140/550, 16.6 task/s, elapsed: 8s, ETA:    25s[>>>>>>>                       ] 141/550, 16.6 task/s, elapsed: 8s, ETA:    25s[>>>>>>>                       ] 142/550, 16.7 task/s, elapsed: 9s, ETA:    24s[>>>>>>>                       ] 143/550, 16.7 task/s, elapsed: 9s, ETA:    24s[>>>>>>>                       ] 144/550, 16.7 task/s, elapsed: 9s, ETA:    24s[>>>>>>>                       ] 145/550, 16.8 task/s, elapsed: 9s, ETA:    24s[>>>>>>>                       ] 146/550, 16.8 task/s, elapsed: 9s, ETA:    24s[>>>>>>>>                      ] 147/550, 16.8 task/s, elapsed: 9s, ETA:    24s[>>>>>>>>                      ] 148/550, 16.8 task/s, elapsed: 9s, ETA:    24s[>>>>>>>>                      ] 149/550, 16.9 task/s, elapsed: 9s, ETA:    24s[>>>>>>>>                      ] 150/550, 16.9 task/s, elapsed: 9s, ETA:    24s[>>>>>>>>                      ] 151/550, 16.9 task/s, elapsed: 9s, ETA:    24s[>>>>>>>>                      ] 152/550, 16.9 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 153/550, 17.0 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 154/550, 17.0 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 155/550, 17.0 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 156/550, 17.0 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 157/550, 17.0 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 158/550, 17.1 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 159/550, 17.1 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 160/550, 17.1 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 161/550, 17.1 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 162/550, 17.2 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                      ] 163/550, 17.2 task/s, elapsed: 9s, ETA:    23s[>>>>>>>>                     ] 164/550, 17.2 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>                     ] 165/550, 17.2 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>                     ] 166/550, 17.2 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>                     ] 167/550, 17.3 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>                     ] 168/550, 17.3 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>                     ] 169/550, 17.3 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>                     ] 170/550, 17.3 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>>                    ] 171/550, 17.4 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>>                    ] 172/550, 17.4 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>>                    ] 173/550, 17.4 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>>                    ] 174/550, 17.4 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>>                    ] 175/550, 17.4 task/s, elapsed: 10s, ETA:    22s[>>>>>>>>>                    ] 176/550, 17.5 task/s, elapsed: 10s, ETA:    21s[>>>>>>>>>                    ] 177/550, 17.5 task/s, elapsed: 10s, ETA:    21s[>>>>>>>>>                    ] 178/550, 17.5 task/s, elapsed: 10s, ETA:    21s[>>>>>>>>>                    ] 179/550, 17.5 task/s, elapsed: 10s, ETA:    21s[>>>>>>>>>                    ] 180/550, 17.5 task/s, elapsed: 10s, ETA:    21s[>>>>>>>>>                    ] 181/550, 17.5 task/s, elapsed: 10s, ETA:    21s[>>>>>>>>>                    ] 182/550, 17.6 task/s, elapsed: 10s, ETA:    21s[>>>>>>>>>                    ] 183/550, 17.6 task/s, elapsed: 10s, ETA:    21s[>>>>>>>>>                    ] 184/550, 17.6 task/s, elapsed: 10s, ETA:    21s[>>>>>>>>>                    ] 185/550, 17.6 task/s, elapsed: 10s, ETA:    21s[>>>>>>>>>                    ] 186/550, 17.6 task/s, elapsed: 11s, ETA:    21s[>>>>>>>>>                    ] 187/550, 17.7 task/s, elapsed: 11s, ETA:    21s[>>>>>>>>>                    ] 188/550, 17.7 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>                    ] 189/550, 17.7 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 190/550, 17.7 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 191/550, 17.7 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 192/550, 17.7 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 193/550, 17.8 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 194/550, 17.8 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 195/550, 17.8 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 196/550, 17.8 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 197/550, 17.8 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 198/550, 17.8 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 199/550, 17.9 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 200/550, 17.9 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 201/550, 17.9 task/s, elapsed: 11s, ETA:    20s[>>>>>>>>>>                   ] 202/550, 17.9 task/s, elapsed: 11s, ETA:    19s[>>>>>>>>>>                   ] 203/550, 17.9 task/s, elapsed: 11s, ETA:    19s[>>>>>>>>>>                   ] 204/550, 17.9 task/s, elapsed: 11s, ETA:    19s[>>>>>>>>>>                   ] 205/550, 18.0 task/s, elapsed: 11s, ETA:    19s[>>>>>>>>>>                   ] 206/550, 18.0 task/s, elapsed: 11s, ETA:    19s[>>>>>>>>>>                   ] 207/550, 18.0 task/s, elapsed: 12s, ETA:    19s[>>>>>>>>>>                   ] 208/550, 18.0 task/s, elapsed: 12s, ETA:    19s[>>>>>>>>>>>                  ] 209/550, 18.0 task/s, elapsed: 12s, ETA:    19s[>>>>>>>>>>>                  ] 210/550, 18.0 task/s, elapsed: 12s, ETA:    19s[>>>>>>>>>>>                  ] 211/550, 18.1 task/s, elapsed: 12s, ETA:    19s[>>>>>>>>>>>                  ] 212/550, 18.1 task/s, elapsed: 12s, ETA:    19s[>>>>>>>>>>>                  ] 213/550, 18.1 task/s, elapsed: 12s, ETA:    19s[>>>>>>>>>>>                  ] 214/550, 18.1 task/s, elapsed: 12s, ETA:    19s[>>>>>>>>>>>                  ] 215/550, 18.1 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 216/550, 18.1 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 217/550, 18.2 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 218/550, 18.2 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 219/550, 18.2 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 220/550, 18.2 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 221/550, 18.2 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 222/550, 18.2 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 223/550, 18.3 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 224/550, 18.3 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 225/550, 18.3 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 226/550, 18.3 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>                  ] 227/550, 18.3 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>>                 ] 228/550, 18.3 task/s, elapsed: 12s, ETA:    18s[>>>>>>>>>>>>                 ] 229/550, 18.3 task/s, elapsed: 12s, ETA:    17s[>>>>>>>>>>>>                 ] 230/550, 18.4 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 231/550, 18.4 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 232/550, 18.4 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 233/550, 18.4 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 234/550, 18.4 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 235/550, 18.4 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 236/550, 18.4 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 237/550, 18.5 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 238/550, 18.5 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 239/550, 18.5 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 240/550, 18.5 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 241/550, 18.5 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 242/550, 18.5 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 243/550, 18.5 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 244/550, 18.5 task/s, elapsed: 13s, ETA:    17s[>>>>>>>>>>>>                 ] 245/550, 18.5 task/s, elapsed: 13s, ETA:    16s[>>>>>>>>>>>>                 ] 246/550, 18.6 task/s, elapsed: 13s, ETA:    16s[>>>>>>>>>>>>>                ] 247/550, 18.6 task/s, elapsed: 13s, ETA:    16s[>>>>>>>>>>>>>                ] 248/550, 18.6 task/s, elapsed: 13s, ETA:    16s[>>>>>>>>>>>>>                ] 249/550, 18.6 task/s, elapsed: 13s, ETA:    16s[>>>>>>>>>>>>>                ] 250/550, 18.6 task/s, elapsed: 13s, ETA:    16s[>>>>>>>>>>>>>                ] 251/550, 18.6 task/s, elapsed: 13s, ETA:    16s[>>>>>>>>>>>>>                ] 252/550, 18.6 task/s, elapsed: 14s, ETA:    16s[>>>>>>>>>>>>>                ] 253/550, 18.6 task/s, elapsed: 14s, ETA:    16s[>>>>>>>>>>>>>                ] 254/550, 18.7 task/s, elapsed: 14s, ETA:    16s[>>>>>>>>>>>>>                ] 255/550, 18.7 task/s, elapsed: 14s, ETA:    16s[>>>>>>>>>>>>>                ] 256/550, 18.7 task/s, elapsed: 14s, ETA:    16s[>>>>>>>>>>>>>                ] 257/550, 18.7 task/s, elapsed: 14s, ETA:    16s[>>>>>>>>>>>>>                ] 258/550, 18.7 task/s, elapsed: 14s, ETA:    16s[>>>>>>>>>>>>>                ] 259/550, 18.7 task/s, elapsed: 14s, ETA:    16s[>>>>>>>>>>>>>                ] 260/550, 18.7 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>                ] 261/550, 18.7 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>                ] 262/550, 18.7 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>                ] 263/550, 18.7 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>                ] 264/550, 18.8 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>                ] 265/550, 18.8 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>>               ] 266/550, 18.8 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>>               ] 267/550, 18.8 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>>               ] 268/550, 18.8 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>>               ] 269/550, 18.8 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>>               ] 270/550, 18.8 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>>               ] 271/550, 18.8 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>>               ] 272/550, 18.8 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>>               ] 273/550, 18.8 task/s, elapsed: 14s, ETA:    15s[>>>>>>>>>>>>>>               ] 274/550, 18.9 task/s, elapsed: 15s, ETA:    15s[>>>>>>>>>>>>>>               ] 275/550, 18.9 task/s, elapsed: 15s, ETA:    15s[>>>>>>>>>>>>>>               ] 276/550, 18.9 task/s, elapsed: 15s, ETA:    15s[>>>>>>>>>>>>>>               ] 277/550, 18.9 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>               ] 278/550, 18.9 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>               ] 279/550, 18.9 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>               ] 280/550, 18.9 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>               ] 281/550, 18.9 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>               ] 282/550, 18.9 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>               ] 283/550, 18.9 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>               ] 284/550, 18.9 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>>              ] 285/550, 18.9 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>>              ] 286/550, 19.0 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>>              ] 287/550, 19.0 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>>              ] 288/550, 19.0 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>>              ] 289/550, 19.0 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>>              ] 290/550, 19.0 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>>              ] 291/550, 19.0 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>>              ] 292/550, 19.0 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>>              ] 293/550, 19.0 task/s, elapsed: 15s, ETA:    14s[>>>>>>>>>>>>>>>              ] 294/550, 19.0 task/s, elapsed: 15s, ETA:    13s[>>>>>>>>>>>>>>>              ] 295/550, 19.0 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>              ] 296/550, 19.0 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>              ] 297/550, 19.0 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>              ] 298/550, 19.0 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>              ] 299/550, 19.1 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>              ] 300/550, 19.1 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>              ] 301/550, 19.1 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>              ] 302/550, 19.1 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>              ] 303/550, 19.1 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>>             ] 304/550, 19.1 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>>             ] 305/550, 19.1 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>>             ] 306/550, 19.1 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>>             ] 307/550, 19.1 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>>             ] 308/550, 19.2 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>>             ] 309/550, 19.2 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>>             ] 310/550, 19.2 task/s, elapsed: 16s, ETA:    13s[>>>>>>>>>>>>>>>>             ] 311/550, 19.2 task/s, elapsed: 16s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 312/550, 19.2 task/s, elapsed: 16s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 313/550, 19.2 task/s, elapsed: 16s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 314/550, 19.2 task/s, elapsed: 16s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 315/550, 19.2 task/s, elapsed: 16s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 316/550, 19.2 task/s, elapsed: 16s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 317/550, 19.2 task/s, elapsed: 16s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 318/550, 19.2 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 319/550, 19.2 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 320/550, 19.2 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 321/550, 19.3 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>             ] 322/550, 19.3 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>>            ] 323/550, 19.3 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>>            ] 324/550, 19.3 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>>            ] 325/550, 19.3 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>>            ] 326/550, 19.3 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>>            ] 327/550, 19.3 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>>            ] 328/550, 19.3 task/s, elapsed: 17s, ETA:    12s[>>>>>>>>>>>>>>>>>            ] 329/550, 19.3 task/s, elapsed: 17s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 330/550, 19.3 task/s, elapsed: 17s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 331/550, 19.3 task/s, elapsed: 17s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 332/550, 19.3 task/s, elapsed: 17s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 333/550, 19.3 task/s, elapsed: 17s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 334/550, 19.3 task/s, elapsed: 17s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 335/550, 19.3 task/s, elapsed: 17s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 336/550, 19.3 task/s, elapsed: 17s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 337/550, 19.4 task/s, elapsed: 17s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 338/550, 19.4 task/s, elapsed: 17s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 339/550, 19.4 task/s, elapsed: 18s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 340/550, 19.4 task/s, elapsed: 18s, ETA:    11s[>>>>>>>>>>>>>>>>>            ] 341/550, 19.4 task/s, elapsed: 18s, ETA:    11s[>>>>>>>>>>>>>>>>>>           ] 342/550, 19.4 task/s, elapsed: 18s, ETA:    11s[>>>>>>>>>>>>>>>>>>           ] 343/550, 19.4 task/s, elapsed: 18s, ETA:    11s[>>>>>>>>>>>>>>>>>>           ] 344/550, 19.4 task/s, elapsed: 18s, ETA:    11s[>>>>>>>>>>>>>>>>>>           ] 345/550, 19.4 task/s, elapsed: 18s, ETA:    11s[>>>>>>>>>>>>>>>>>>           ] 346/550, 19.4 task/s, elapsed: 18s, ETA:    11s[>>>>>>>>>>>>>>>>>>           ] 347/550, 19.4 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 348/550, 19.4 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 349/550, 19.4 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 350/550, 19.4 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 351/550, 19.4 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 352/550, 19.5 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 353/550, 19.5 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 354/550, 19.5 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 355/550, 19.5 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 356/550, 19.5 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 357/550, 19.5 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 358/550, 19.5 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 359/550, 19.5 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>           ] 360/550, 19.5 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>>          ] 361/550, 19.5 task/s, elapsed: 18s, ETA:    10s[>>>>>>>>>>>>>>>>>>>          ] 362/550, 19.5 task/s, elapsed: 19s, ETA:    10s[>>>>>>>>>>>>>>>>>>>          ] 363/550, 19.5 task/s, elapsed: 19s, ETA:    10s[>>>>>>>>>>>>>>>>>>>          ] 364/550, 19.5 task/s, elapsed: 19s, ETA:    10s[>>>>>>>>>>>>>>>>>>>          ] 365/550, 19.5 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 366/550, 19.5 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 367/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 368/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 369/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 370/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 371/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 372/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 373/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 374/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 375/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 376/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 377/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 378/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>          ] 379/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>>         ] 380/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>>         ] 381/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>>         ] 382/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>>         ] 383/550, 19.6 task/s, elapsed: 19s, ETA:     9s[>>>>>>>>>>>>>>>>>>>>         ] 384/550, 19.6 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 385/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 386/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 387/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 388/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 389/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 390/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 391/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 392/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 393/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 394/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 395/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 396/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 397/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>         ] 398/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>>        ] 399/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>>        ] 400/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>>        ] 401/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>>        ] 402/550, 19.7 task/s, elapsed: 20s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>>        ] 403/550, 19.7 task/s, elapsed: 20s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 404/550, 19.7 task/s, elapsed: 20s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 405/550, 19.7 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 406/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 407/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 408/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 409/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 410/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 411/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 412/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 413/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 414/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 415/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 416/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>        ] 417/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>>       ] 418/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>>       ] 419/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>>       ] 420/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>>       ] 421/550, 19.8 task/s, elapsed: 21s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>>       ] 422/550, 19.8 task/s, elapsed: 21s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 423/550, 19.8 task/s, elapsed: 21s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 424/550, 19.8 task/s, elapsed: 21s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 425/550, 19.8 task/s, elapsed: 21s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 426/550, 19.9 task/s, elapsed: 21s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 427/550, 19.8 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 428/550, 19.8 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 429/550, 19.8 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 430/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 431/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 432/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 433/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 434/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 435/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>       ] 436/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>>      ] 437/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>>      ] 438/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>>      ] 439/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>>      ] 440/550, 19.9 task/s, elapsed: 22s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>>      ] 441/550, 19.9 task/s, elapsed: 22s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 442/550, 19.9 task/s, elapsed: 22s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 443/550, 19.9 task/s, elapsed: 22s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 444/550, 19.9 task/s, elapsed: 22s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 445/550, 19.9 task/s, elapsed: 22s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 446/550, 19.9 task/s, elapsed: 22s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 447/550, 19.9 task/s, elapsed: 22s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 448/550, 19.9 task/s, elapsed: 22s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 449/550, 19.9 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 450/550, 19.9 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 451/550, 19.9 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 452/550, 20.0 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 453/550, 20.0 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 454/550, 20.0 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>      ] 455/550, 20.0 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 456/550, 20.0 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 457/550, 20.0 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 458/550, 20.0 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 459/550, 20.0 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 460/550, 20.0 task/s, elapsed: 23s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 461/550, 20.0 task/s, elapsed: 23s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 462/550, 20.0 task/s, elapsed: 23s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 463/550, 20.0 task/s, elapsed: 23s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 464/550, 20.0 task/s, elapsed: 23s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 465/550, 20.0 task/s, elapsed: 23s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 466/550, 20.0 task/s, elapsed: 23s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 467/550, 20.0 task/s, elapsed: 23s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 468/550, 20.0 task/s, elapsed: 23s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 469/550, 20.0 task/s, elapsed: 23s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 470/550, 20.0 task/s, elapsed: 23s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 471/550, 20.0 task/s, elapsed: 24s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 472/550, 20.0 task/s, elapsed: 24s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 473/550, 20.0 task/s, elapsed: 24s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>     ] 474/550, 20.0 task/s, elapsed: 24s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 475/550, 20.1 task/s, elapsed: 24s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 476/550, 20.1 task/s, elapsed: 24s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 477/550, 20.1 task/s, elapsed: 24s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 478/550, 20.1 task/s, elapsed: 24s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 479/550, 20.1 task/s, elapsed: 24s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 480/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 481/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 482/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 483/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 484/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 485/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 486/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 487/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 488/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 489/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 490/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 491/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 492/550, 20.1 task/s, elapsed: 24s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>    ] 493/550, 20.1 task/s, elapsed: 25s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 494/550, 20.1 task/s, elapsed: 25s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 495/550, 20.1 task/s, elapsed: 25s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 496/550, 20.1 task/s, elapsed: 25s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 497/550, 20.1 task/s, elapsed: 25s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 498/550, 20.1 task/s, elapsed: 25s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 499/550, 20.1 task/s, elapsed: 25s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 500/550, 20.1 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 501/550, 20.1 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 502/550, 20.1 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 503/550, 20.1 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 504/550, 20.1 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 505/550, 20.1 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 506/550, 20.1 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 507/550, 20.2 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 508/550, 20.2 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 509/550, 20.2 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 510/550, 20.2 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 511/550, 20.2 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 512/550, 20.2 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 513/550, 20.2 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 514/550, 20.2 task/s, elapsed: 25s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 515/550, 20.2 task/s, elapsed: 26s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 516/550, 20.2 task/s, elapsed: 26s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 517/550, 20.2 task/s, elapsed: 26s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 518/550, 20.2 task/s, elapsed: 26s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 519/550, 20.2 task/s, elapsed: 26s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 520/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 521/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 522/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 523/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 524/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 525/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 526/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 527/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 528/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 529/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 530/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 531/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 532/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 533/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 534/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 535/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 536/550, 20.2 task/s, elapsed: 26s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 537/550, 20.2 task/s, elapsed: 27s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 538/550, 20.2 task/s, elapsed: 27s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 539/550, 20.3 task/s, elapsed: 27s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 540/550, 20.3 task/s, elapsed: 27s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 541/550, 20.3 task/s, elapsed: 27s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 542/550, 20.3 task/s, elapsed: 27s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 543/550, 20.3 task/s, elapsed: 27s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 544/550, 20.3 task/s, elapsed: 27s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 545/550, 20.3 task/s, elapsed: 27s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 546/550, 20.3 task/s, elapsed: 27s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 547/550, 20.3 task/s, elapsed: 27s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 548/550, 20.3 task/s, elapsed: 27s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 549/550, 20.3 task/s, elapsed: 27s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 550/550, 20.3 task/s, elapsed: 27s, ETA:     0s
+---------------iou_thr: 0.5---------------
+
++------------------------+-----+------+--------+-------+
+| class                  | gts | dets | recall | ap    |
++------------------------+-----+------+--------+-------+
+| Other Ship             | 297 | 1142 | 0.626  | 0.354 |
+| Other Warship          | 209 | 775  | 0.799  | 0.529 |
+| Submarine              | 171 | 230  | 0.930  | 0.886 |
+| Other Aircraft Carrier | 4   | 25   | 1.000  | 1.000 |
+| Enterprise             | 18  | 40   | 0.833  | 0.778 |
+| Nimitz                 | 19  | 39   | 1.000  | 0.928 |
+| Midway                 | 5   | 15   | 1.000  | 0.909 |
+| Ticonderoga            | 77  | 120  | 0.935  | 0.905 |
+| Other Destroyer        | 46  | 199  | 0.957  | 0.687 |
+| Atago DD               | 41  | 110  | 0.976  | 0.856 |
+| Arleigh Burke DD       | 130 | 190  | 0.985  | 0.904 |
+| Hatsuyuki DD           | 22  | 76   | 1.000  | 0.899 |
+| Hyuga DD               | 16  | 25   | 1.000  | 0.989 |
+| Asagiri DD             | 14  | 67   | 0.929  | 0.756 |
+| Other Frigate          | 28  | 131  | 0.893  | 0.745 |
+| Perry FF               | 77  | 149  | 1.000  | 0.955 |
+| Patrol                 | 37  | 70   | 0.703  | 0.522 |
+| Other Landing          | 18  | 77   | 0.833  | 0.531 |
+| YuTing LL              | 19  | 36   | 1.000  | 0.894 |
+| YuDeng LL              | 11  | 28   | 0.909  | 0.909 |
+| YuDao LL               | 5   | 11   | 1.000  | 0.839 |
+| YuZhao LL              | 6   | 19   | 1.000  | 1.000 |
+| Austin LL              | 27  | 44   | 1.000  | 0.928 |
+| Osumi LL               | 6   | 12   | 1.000  | 1.000 |
+| Wasp LL                | 6   | 10   | 1.000  | 1.000 |
+| LSD 41 LL              | 21  | 62   | 0.952  | 0.886 |
+| LHA LL                 | 31  | 63   | 0.968  | 0.909 |
+| Commander              | 32  | 68   | 0.969  | 0.906 |
+| Other Auxiliary Ship   | 18  | 113  | 0.722  | 0.464 |
+| Medical Ship           | 5   | 13   | 0.800  | 0.818 |
+| Test Ship              | 7   | 32   | 0.857  | 0.606 |
+| Training Ship          | 11  | 28   | 1.000  | 0.977 |
+| AOE                    | 11  | 28   | 1.000  | 1.000 |
+| Masyuu AS              | 8   | 34   | 1.000  | 1.000 |
+| Sanantonio AS          | 13  | 33   | 0.923  | 0.873 |
+| EPF                    | 10  | 24   | 0.900  | 0.852 |
+| Other Merchant         | 50  | 198  | 0.360  | 0.105 |
+| Container Ship         | 72  | 221  | 0.903  | 0.715 |
+| RoRo                   | 20  | 40   | 0.950  | 0.877 |
+| Cargo                  | 169 | 377  | 0.905  | 0.728 |
+| Barge                  | 22  | 193  | 0.500  | 0.218 |
+| Tugboat                | 46  | 202  | 0.761  | 0.533 |
+| Ferry                  | 53  | 215  | 0.698  | 0.450 |
+| Yacht                  | 140 | 254  | 0.950  | 0.819 |
+| Sailboat               | 341 | 222  | 0.279  | 0.140 |
+| Fishing Vessel         | 99  | 426  | 0.667  | 0.409 |
+| Oil Tanker             | 32  | 100  | 0.844  | 0.703 |
+| Hovercraft             | 31  | 78   | 0.871  | 0.621 |
+| Motorboat              | 398 | 945  | 0.384  | 0.209 |
+| Dock                   | 154 | 546  | 0.883  | 0.760 |
++------------------------+-----+------+--------+-------+
+| mAP                    |     |      |        | 0.746 |
++------------------------+-----+------+--------+-------+
+
+---------------iou_thr: 0.55---------------
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+
++------------------------+-----+------+--------+-------+
+| class                  | gts | dets | recall | ap    |
++------------------------+-----+------+--------+-------+
+| Other Ship             | 297 | 1142 | 0.620  | 0.353 |
+| Other Warship          | 209 | 775  | 0.789  | 0.524 |
+| Submarine              | 171 | 230  | 0.877  | 0.790 |
+| Other Aircraft Carrier | 4   | 25   | 1.000  | 1.000 |
+| Enterprise             | 18  | 40   | 0.833  | 0.778 |
+| Nimitz                 | 19  | 39   | 1.000  | 0.928 |
+| Midway                 | 5   | 15   | 1.000  | 0.909 |
+| Ticonderoga            | 77  | 120  | 0.935  | 0.905 |
+| Other Destroyer        | 46  | 199  | 0.957  | 0.687 |
+| Atago DD               | 41  | 110  | 0.976  | 0.856 |
+| Arleigh Burke DD       | 130 | 190  | 0.985  | 0.904 |
+| Hatsuyuki DD           | 22  | 76   | 1.000  | 0.899 |
+| Hyuga DD               | 16  | 25   | 1.000  | 0.989 |
+| Asagiri DD             | 14  | 67   | 0.929  | 0.756 |
+| Other Frigate          | 28  | 131  | 0.893  | 0.745 |
+| Perry FF               | 77  | 149  | 1.000  | 0.955 |
+| Patrol                 | 37  | 70   | 0.703  | 0.522 |
+| Other Landing          | 18  | 77   | 0.833  | 0.531 |
+| YuTing LL              | 19  | 36   | 0.947  | 0.827 |
+| YuDeng LL              | 11  | 28   | 0.909  | 0.909 |
+| YuDao LL               | 5   | 11   | 1.000  | 0.839 |
+| YuZhao LL              | 6   | 19   | 1.000  | 1.000 |
+| Austin LL              | 27  | 44   | 1.000  | 0.928 |
+| Osumi LL               | 6   | 12   | 1.000  | 1.000 |
+| Wasp LL                | 6   | 10   | 1.000  | 1.000 |
+| LSD 41 LL              | 21  | 62   | 0.952  | 0.886 |
+| LHA LL                 | 31  | 63   | 0.968  | 0.909 |
+| Commander              | 32  | 68   | 0.969  | 0.906 |
+| Other Auxiliary Ship   | 18  | 113  | 0.722  | 0.464 |
+| Medical Ship           | 5   | 13   | 0.800  | 0.818 |
+| Test Ship              | 7   | 32   | 0.857  | 0.606 |
+| Training Ship          | 11  | 28   | 1.000  | 0.977 |
+| AOE                    | 11  | 28   | 1.000  | 1.000 |
+| Masyuu AS              | 8   | 34   | 1.000  | 1.000 |
+| Sanantonio AS          | 13  | 33   | 0.923  | 0.873 |
+| EPF                    | 10  | 24   | 0.900  | 0.852 |
+| Other Merchant         | 50  | 198  | 0.340  | 0.105 |
+| Container Ship         | 72  | 221  | 0.889  | 0.680 |
+| RoRo                   | 20  | 40   | 0.950  | 0.877 |
+| Cargo                  | 169 | 377  | 0.899  | 0.691 |
+| Barge                  | 22  | 193  | 0.455  | 0.212 |
+| Tugboat                | 46  | 202  | 0.761  | 0.533 |
+| Ferry                  | 53  | 215  | 0.679  | 0.436 |
+| Yacht                  | 140 | 254  | 0.943  | 0.819 |
+| Sailboat               | 341 | 222  | 0.261  | 0.132 |
+| Fishing Vessel         | 99  | 426  | 0.636  | 0.398 |
+| Oil Tanker             | 32  | 100  | 0.781  | 0.612 |
+| Hovercraft             | 31  | 78   | 0.871  | 0.621 |
+| Motorboat              | 398 | 945  | 0.347  | 0.201 |
+| Dock                   | 154 | 546  | 0.870  | 0.755 |
++------------------------+-----+------+--------+-------+
+| mAP                    |     |      |        | 0.738 |
++------------------------+-----+------+--------+-------+
+
+---------------iou_thr: 0.6---------------
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+
++------------------------+-----+------+--------+-------+
+| class                  | gts | dets | recall | ap    |
++------------------------+-----+------+--------+-------+
+| Other Ship             | 297 | 1142 | 0.596  | 0.333 |
+| Other Warship          | 209 | 775  | 0.785  | 0.524 |
+| Submarine              | 171 | 230  | 0.813  | 0.778 |
+| Other Aircraft Carrier | 4   | 25   | 1.000  | 1.000 |
+| Enterprise             | 18  | 40   | 0.833  | 0.778 |
+| Nimitz                 | 19  | 39   | 1.000  | 0.928 |
+| Midway                 | 5   | 15   | 1.000  | 0.909 |
+| Ticonderoga            | 77  | 120  | 0.935  | 0.905 |
+| Other Destroyer        | 46  | 199  | 0.957  | 0.687 |
+| Atago DD               | 41  | 110  | 0.976  | 0.856 |
+| Arleigh Burke DD       | 130 | 190  | 0.985  | 0.904 |
+| Hatsuyuki DD           | 22  | 76   | 1.000  | 0.899 |
+| Hyuga DD               | 16  | 25   | 1.000  | 0.989 |
+| Asagiri DD             | 14  | 67   | 0.929  | 0.756 |
+| Other Frigate          | 28  | 131  | 0.893  | 0.745 |
+| Perry FF               | 77  | 149  | 1.000  | 0.955 |
+| Patrol                 | 37  | 70   | 0.703  | 0.522 |
+| Other Landing          | 18  | 77   | 0.722  | 0.447 |
+| YuTing LL              | 19  | 36   | 0.947  | 0.827 |
+| YuDeng LL              | 11  | 28   | 0.909  | 0.909 |
+| YuDao LL               | 5   | 11   | 1.000  | 0.839 |
+| YuZhao LL              | 6   | 19   | 1.000  | 1.000 |
+| Austin LL              | 27  | 44   | 1.000  | 0.928 |
+| Osumi LL               | 6   | 12   | 1.000  | 1.000 |
+| Wasp LL                | 6   | 10   | 1.000  | 1.000 |
+| LSD 41 LL              | 21  | 62   | 0.952  | 0.886 |
+| LHA LL                 | 31  | 63   | 0.968  | 0.909 |
+| Commander              | 32  | 68   | 0.969  | 0.906 |
+| Other Auxiliary Ship   | 18  | 113  | 0.722  | 0.464 |
+| Medical Ship           | 5   | 13   | 0.800  | 0.818 |
+| Test Ship              | 7   | 32   | 0.857  | 0.606 |
+| Training Ship          | 11  | 28   | 1.000  | 0.977 |
+| AOE                    | 11  | 28   | 1.000  | 1.000 |
+| Masyuu AS              | 8   | 34   | 1.000  | 1.000 |
+| Sanantonio AS          | 13  | 33   | 0.923  | 0.873 |
+| EPF                    | 10  | 24   | 0.900  | 0.852 |
+| Other Merchant         | 50  | 198  | 0.340  | 0.105 |
+| Container Ship         | 72  | 221  | 0.875  | 0.677 |
+| RoRo                   | 20  | 40   | 0.950  | 0.877 |
+| Cargo                  | 169 | 377  | 0.893  | 0.690 |
+| Barge                  | 22  | 193  | 0.455  | 0.212 |
+| Tugboat                | 46  | 202  | 0.739  | 0.516 |
+| Ferry                  | 53  | 215  | 0.660  | 0.431 |
+| Yacht                  | 140 | 254  | 0.936  | 0.813 |
+| Sailboat               | 341 | 222  | 0.232  | 0.121 |
+| Fishing Vessel         | 99  | 426  | 0.566  | 0.318 |
+| Oil Tanker             | 32  | 100  | 0.719  | 0.594 |
+| Hovercraft             | 31  | 78   | 0.839  | 0.621 |
+| Motorboat              | 398 | 945  | 0.291  | 0.159 |
+| Dock                   | 154 | 546  | 0.857  | 0.751 |
++------------------------+-----+------+--------+-------+
+| mAP                    |     |      |        | 0.732 |
++------------------------+-----+------+--------+-------+
+
+---------------iou_thr: 0.65---------------
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+
++------------------------+-----+------+--------+-------+
+| class                  | gts | dets | recall | ap    |
++------------------------+-----+------+--------+-------+
+| Other Ship             | 297 | 1142 | 0.576  | 0.330 |
+| Other Warship          | 209 | 775  | 0.780  | 0.524 |
+| Submarine              | 171 | 230  | 0.719  | 0.675 |
+| Other Aircraft Carrier | 4   | 25   | 1.000  | 1.000 |
+| Enterprise             | 18  | 40   | 0.833  | 0.778 |
+| Nimitz                 | 19  | 39   | 1.000  | 0.928 |
+| Midway                 | 5   | 15   | 1.000  | 0.909 |
+| Ticonderoga            | 77  | 120  | 0.935  | 0.905 |
+| Other Destroyer        | 46  | 199  | 0.957  | 0.687 |
+| Atago DD               | 41  | 110  | 0.976  | 0.856 |
+| Arleigh Burke DD       | 130 | 190  | 0.985  | 0.904 |
+| Hatsuyuki DD           | 22  | 76   | 1.000  | 0.899 |
+| Hyuga DD               | 16  | 25   | 1.000  | 0.989 |
+| Asagiri DD             | 14  | 67   | 0.929  | 0.756 |
+| Other Frigate          | 28  | 131  | 0.893  | 0.745 |
+| Perry FF               | 77  | 149  | 1.000  | 0.955 |
+| Patrol                 | 37  | 70   | 0.703  | 0.522 |
+| Other Landing          | 18  | 77   | 0.722  | 0.447 |
+| YuTing LL              | 19  | 36   | 0.947  | 0.827 |
+| YuDeng LL              | 11  | 28   | 0.909  | 0.909 |
+| YuDao LL               | 5   | 11   | 1.000  | 0.839 |
+| YuZhao LL              | 6   | 19   | 1.000  | 1.000 |
+| Austin LL              | 27  | 44   | 1.000  | 0.928 |
+| Osumi LL               | 6   | 12   | 1.000  | 1.000 |
+| Wasp LL                | 6   | 10   | 1.000  | 1.000 |
+| LSD 41 LL              | 21  | 62   | 0.952  | 0.886 |
+| LHA LL                 | 31  | 63   | 0.968  | 0.909 |
+| Commander              | 32  | 68   | 0.969  | 0.906 |
+| Other Auxiliary Ship   | 18  | 113  | 0.722  | 0.464 |
+| Medical Ship           | 5   | 13   | 0.800  | 0.818 |
+| Test Ship              | 7   | 32   | 0.714  | 0.589 |
+| Training Ship          | 11  | 28   | 1.000  | 0.977 |
+| AOE                    | 11  | 28   | 1.000  | 1.000 |
+| Masyuu AS              | 8   | 34   | 1.000  | 1.000 |
+| Sanantonio AS          | 13  | 33   | 0.923  | 0.873 |
+| EPF                    | 10  | 24   | 0.900  | 0.852 |
+| Other Merchant         | 50  | 198  | 0.320  | 0.098 |
+| Container Ship         | 72  | 221  | 0.806  | 0.618 |
+| RoRo                   | 20  | 40   | 0.950  | 0.877 |
+| Cargo                  | 169 | 377  | 0.870  | 0.686 |
+| Barge                  | 22  | 193  | 0.455  | 0.212 |
+| Tugboat                | 46  | 202  | 0.717  | 0.487 |
+| Ferry                  | 53  | 215  | 0.660  | 0.431 |
+| Yacht                  | 140 | 254  | 0.914  | 0.797 |
+| Sailboat               | 341 | 222  | 0.176  | 0.074 |
+| Fishing Vessel         | 99  | 426  | 0.535  | 0.297 |
+| Oil Tanker             | 32  | 100  | 0.719  | 0.594 |
+| Hovercraft             | 31  | 78   | 0.806  | 0.610 |
+| Motorboat              | 398 | 945  | 0.211  | 0.129 |
+| Dock                   | 154 | 546  | 0.844  | 0.750 |
++------------------------+-----+------+--------+-------+
+| mAP                    |     |      |        | 0.725 |
++------------------------+-----+------+--------+-------+
+
+---------------iou_thr: 0.7---------------
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+
++------------------------+-----+------+--------+-------+
+| class                  | gts | dets | recall | ap    |
++------------------------+-----+------+--------+-------+
+| Other Ship             | 297 | 1142 | 0.539  | 0.318 |
+| Other Warship          | 209 | 775  | 0.761  | 0.519 |
+| Submarine              | 171 | 230  | 0.643  | 0.581 |
+| Other Aircraft Carrier | 4   | 25   | 1.000  | 1.000 |
+| Enterprise             | 18  | 40   | 0.833  | 0.778 |
+| Nimitz                 | 19  | 39   | 0.947  | 0.849 |
+| Midway                 | 5   | 15   | 1.000  | 0.909 |
+| Ticonderoga            | 77  | 120  | 0.922  | 0.886 |
+| Other Destroyer        | 46  | 199  | 0.957  | 0.687 |
+| Atago DD               | 41  | 110  | 0.951  | 0.839 |
+| Arleigh Burke DD       | 130 | 190  | 0.977  | 0.904 |
+| Hatsuyuki DD           | 22  | 76   | 1.000  | 0.899 |
+| Hyuga DD               | 16  | 25   | 1.000  | 0.989 |
+| Asagiri DD             | 14  | 67   | 0.929  | 0.756 |
+| Other Frigate          | 28  | 131  | 0.893  | 0.745 |
+| Perry FF               | 77  | 149  | 1.000  | 0.955 |
+| Patrol                 | 37  | 70   | 0.676  | 0.471 |
+| Other Landing          | 18  | 77   | 0.722  | 0.447 |
+| YuTing LL              | 19  | 36   | 0.947  | 0.827 |
+| YuDeng LL              | 11  | 28   | 0.909  | 0.909 |
+| YuDao LL               | 5   | 11   | 1.000  | 0.839 |
+| YuZhao LL              | 6   | 19   | 1.000  | 1.000 |
+| Austin LL              | 27  | 44   | 1.000  | 0.928 |
+| Osumi LL               | 6   | 12   | 1.000  | 1.000 |
+| Wasp LL                | 6   | 10   | 1.000  | 1.000 |
+| LSD 41 LL              | 21  | 62   | 0.952  | 0.886 |
+| LHA LL                 | 31  | 63   | 0.968  | 0.909 |
+| Commander              | 32  | 68   | 0.969  | 0.906 |
+| Other Auxiliary Ship   | 18  | 113  | 0.667  | 0.439 |
+| Medical Ship           | 5   | 13   | 0.800  | 0.818 |
+| Test Ship              | 7   | 32   | 0.714  | 0.589 |
+| Training Ship          | 11  | 28   | 1.000  | 0.977 |
+| AOE                    | 11  | 28   | 1.000  | 1.000 |
+| Masyuu AS              | 8   | 34   | 1.000  | 1.000 |
+| Sanantonio AS          | 13  | 33   | 0.923  | 0.873 |
+| EPF                    | 10  | 24   | 0.900  | 0.852 |
+| Other Merchant         | 50  | 198  | 0.280  | 0.086 |
+| Container Ship         | 72  | 221  | 0.792  | 0.585 |
+| RoRo                   | 20  | 40   | 0.950  | 0.877 |
+| Cargo                  | 169 | 377  | 0.858  | 0.684 |
+| Barge                  | 22  | 193  | 0.455  | 0.212 |
+| Tugboat                | 46  | 202  | 0.652  | 0.444 |
+| Ferry                  | 53  | 215  | 0.642  | 0.431 |
+| Yacht                  | 140 | 254  | 0.886  | 0.732 |
+| Sailboat               | 341 | 222  | 0.111  | 0.051 |
+| Fishing Vessel         | 99  | 426  | 0.455  | 0.231 |
+| Oil Tanker             | 32  | 100  | 0.719  | 0.594 |
+| Hovercraft             | 31  | 78   | 0.774  | 0.574 |
+| Motorboat              | 398 | 945  | 0.156  | 0.107 |
+| Dock                   | 154 | 546  | 0.805  | 0.724 |
++------------------------+-----+------+--------+-------+
+| mAP                    |     |      |        | 0.712 |
++------------------------+-----+------+--------+-------+
+
+---------------iou_thr: 0.75---------------
+
++------------------------+-----+------+--------+-------+
+| class                  | gts | dets | recall | ap    |
++------------------------+-----+------+--------+-------+
+| Other Ship             | 297 | 1142 | 0.495  | 0.283 |
+| Other Warship          | 209 | 775  | 0.694  | 0.445 |
+| Submarine              | 171 | 230  | 0.491  | 0.410 |
+| Other Aircraft Carrier | 4   | 25   | 1.000  | 1.000 |
+| Enterprise             | 18  | 40   | 0.778  | 0.706 |
+| Nimitz                 | 19  | 39   | 0.895  | 0.778 |
+| Midway                 | 5   | 15   | 1.000  | 0.909 |
+| Ticonderoga            | 77  | 120  | 0.896  | 0.814 |
+| Other Destroyer        | 46  | 199  | 0.935  | 0.675 |
+| Atago DD               | 41  | 110  | 0.927  | 0.811 |
+| Arleigh Burke DD       | 130 | 190  | 0.969  | 0.897 |
+| Hatsuyuki DD           | 22  | 76   | 1.000  | 0.899 |
+| Hyuga DD               | 16  | 25   | 1.000  | 0.989 |
+| Asagiri DD             | 14  | 67   | 0.929  | 0.756 |
+| Other Frigate          | 28  | 131  | 0.893  | 0.745 |
+| Perry FF               | 77  | 149  | 1.000  | 0.955 |
+| Patrol                 | 37  | 70   | 0.541  | 0.365 |
+| Other Landing          | 18  | 77   | 0.667  | 0.362 |
+| YuTing LL              | 19  | 36   | 0.947  | 0.827 |
+| YuDeng LL              | 11  | 28   | 0.909  | 0.909 |
+| YuDao LL               | 5   | 11   | 0.800  | 0.633 |
+| YuZhao LL              | 6   | 19   | 1.000  | 1.000 |
+| Austin LL              | 27  | 44   | 1.000  | 0.928 |
+| Osumi LL               | 6   | 12   | 1.000  | 1.000 |
+| Wasp LL                | 6   | 10   | 1.000  | 1.000 |
+| LSD 41 LL              | 21  | 62   | 0.952  | 0.886 |
+| LHA LL                 | 31  | 63   | 0.935  | 0.897 |
+| Commander              | 32  | 68   | 0.969  | 0.906 |
+| Other Auxiliary Ship   | 18  | 113  | 0.611  | 0.417 |
+| Medical Ship           | 5   | 13   | 0.800  | 0.818 |
+| Test Ship              | 7   | 32   | 0.714  | 0.589 |
+| Training Ship          | 11  | 28   | 1.000  | 0.977 |
+| AOE                    | 11  | 28   | 1.000  | 1.000 |
+| Masyuu AS              | 8   | 34   | 1.000  | 1.000 |
+| Sanantonio AS          | 13  | 33   | 0.923  | 0.873 |
+| EPF                    | 10  | 24   | 0.900  | 0.852 |
+| Other Merchant         | 50  | 198  | 0.260  | 0.085 |
+| Container Ship         | 72  | 221  | 0.722  | 0.527 |
+| RoRo                   | 20  | 40   | 0.950  | 0.877 |
+| Cargo                  | 169 | 377  | 0.769  | 0.592 |
+| Barge                  | 22  | 193  | 0.409  | 0.210 |
+| Tugboat                | 46  | 202  | 0.630  | 0.440 |
+| Ferry                  | 53  | 215  | 0.509  | 0.376 |
+| Yacht                  | 140 | 254  | 0.771  | 0.621 |
+| Sailboat               | 341 | 222  | 0.050  | 0.014 |
+| Fishing Vessel         | 99  | 426  | 0.364  | 0.167 |
+| Oil Tanker             | 32  | 100  | 0.688  | 0.542 |
+| Hovercraft             | 31  | 78   | 0.774  | 0.574 |
+| Motorboat              | 398 | 945  | 0.095  | 0.091 |
+| Dock                   | 154 | 546  | 0.701  | 0.600 |
++------------------------+-----+------+--------+-------+
+| mAP                    |     |      |        | 0.681 |
++------------------------+-----+------+--------+-------+
+
+---------------iou_thr: 0.8---------------
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+
++------------------------+-----+------+--------+-------+
+| class                  | gts | dets | recall | ap    |
++------------------------+-----+------+--------+-------+
+| Other Ship             | 297 | 1142 | 0.407  | 0.257 |
+| Other Warship          | 209 | 775  | 0.574  | 0.336 |
+| Submarine              | 171 | 230  | 0.333  | 0.316 |
+| Other Aircraft Carrier | 4   | 25   | 1.000  | 1.000 |
+| Enterprise             | 18  | 40   | 0.722  | 0.680 |
+| Nimitz                 | 19  | 39   | 0.895  | 0.778 |
+| Midway                 | 5   | 15   | 1.000  | 0.909 |
+| Ticonderoga            | 77  | 120  | 0.818  | 0.790 |
+| Other Destroyer        | 46  | 199  | 0.783  | 0.452 |
+| Atago DD               | 41  | 110  | 0.878  | 0.736 |
+| Arleigh Burke DD       | 130 | 190  | 0.946  | 0.892 |
+| Hatsuyuki DD           | 22  | 76   | 1.000  | 0.899 |
+| Hyuga DD               | 16  | 25   | 1.000  | 0.989 |
+| Asagiri DD             | 14  | 67   | 0.929  | 0.756 |
+| Other Frigate          | 28  | 131  | 0.786  | 0.666 |
+| Perry FF               | 77  | 149  | 0.922  | 0.844 |
+| Patrol                 | 37  | 70   | 0.324  | 0.173 |
+| Other Landing          | 18  | 77   | 0.611  | 0.335 |
+| YuTing LL              | 19  | 36   | 0.842  | 0.694 |
+| YuDeng LL              | 11  | 28   | 0.818  | 0.764 |
+| YuDao LL               | 5   | 11   | 0.600  | 0.477 |
+| YuZhao LL              | 6   | 19   | 1.000  | 1.000 |
+| Austin LL              | 27  | 44   | 0.889  | 0.758 |
+| Osumi LL               | 6   | 12   | 1.000  | 1.000 |
+| Wasp LL                | 6   | 10   | 1.000  | 1.000 |
+| LSD 41 LL              | 21  | 62   | 0.905  | 0.886 |
+| LHA LL                 | 31  | 63   | 0.742  | 0.653 |
+| Commander              | 32  | 68   | 0.969  | 0.906 |
+| Other Auxiliary Ship   | 18  | 113  | 0.556  | 0.373 |
+| Medical Ship           | 5   | 13   | 0.800  | 0.818 |
+| Test Ship              | 7   | 32   | 0.571  | 0.545 |
+| Training Ship          | 11  | 28   | 0.909  | 0.807 |
+| AOE                    | 11  | 28   | 1.000  | 1.000 |
+| Masyuu AS              | 8   | 34   | 1.000  | 1.000 |
+| Sanantonio AS          | 13  | 33   | 0.846  | 0.769 |
+| EPF                    | 10  | 24   | 0.900  | 0.852 |
+| Other Merchant         | 50  | 198  | 0.180  | 0.075 |
+| Container Ship         | 72  | 221  | 0.597  | 0.407 |
+| RoRo                   | 20  | 40   | 0.850  | 0.766 |
+| Cargo                  | 169 | 377  | 0.698  | 0.520 |
+| Barge                  | 22  | 193  | 0.273  | 0.151 |
+| Tugboat                | 46  | 202  | 0.500  | 0.382 |
+| Ferry                  | 53  | 215  | 0.415  | 0.329 |
+| Yacht                  | 140 | 254  | 0.700  | 0.536 |
+| Sailboat               | 341 | 222  | 0.026  | 0.013 |
+| Fishing Vessel         | 99  | 426  | 0.212  | 0.067 |
+| Oil Tanker             | 32  | 100  | 0.594  | 0.456 |
+| Hovercraft             | 31  | 78   | 0.710  | 0.572 |
+| Motorboat              | 398 | 945  | 0.045  | 0.091 |
+| Dock                   | 154 | 546  | 0.532  | 0.430 |
++------------------------+-----+------+--------+-------+
+| mAP                    |     |      |        | 0.618 |
++------------------------+-----+------+--------+-------+
+
+---------------iou_thr: 0.85---------------
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+
++------------------------+-----+------+--------+-------+
+| class                  | gts | dets | recall | ap    |
++------------------------+-----+------+--------+-------+
+| Other Ship             | 297 | 1142 | 0.266  | 0.159 |
+| Other Warship          | 209 | 775  | 0.364  | 0.203 |
+| Submarine              | 171 | 230  | 0.181  | 0.144 |
+| Other Aircraft Carrier | 4   | 25   | 0.750  | 0.682 |
+| Enterprise             | 18  | 40   | 0.611  | 0.573 |
+| Nimitz                 | 19  | 39   | 0.842  | 0.760 |
+| Midway                 | 5   | 15   | 1.000  | 0.909 |
+| Ticonderoga            | 77  | 120  | 0.610  | 0.490 |
+| Other Destroyer        | 46  | 199  | 0.522  | 0.186 |
+| Atago DD               | 41  | 110  | 0.732  | 0.593 |
+| Arleigh Burke DD       | 130 | 190  | 0.815  | 0.743 |
+| Hatsuyuki DD           | 22  | 76   | 0.636  | 0.504 |
+| Hyuga DD               | 16  | 25   | 0.812  | 0.761 |
+| Asagiri DD             | 14  | 67   | 0.786  | 0.585 |
+| Other Frigate          | 28  | 131  | 0.464  | 0.295 |
+| Perry FF               | 77  | 149  | 0.701  | 0.577 |
+| Patrol                 | 37  | 70   | 0.243  | 0.143 |
+| Other Landing          | 18  | 77   | 0.222  | 0.147 |
+| YuTing LL              | 19  | 36   | 0.316  | 0.188 |
+| YuDeng LL              | 11  | 28   | 0.182  | 0.066 |
+| YuDao LL               | 5   | 11   | 0.400  | 0.364 |
+| YuZhao LL              | 6   | 19   | 0.667  | 0.424 |
+| Austin LL              | 27  | 44   | 0.815  | 0.705 |
+| Osumi LL               | 6   | 12   | 1.000  | 1.000 |
+| Wasp LL                | 6   | 10   | 1.000  | 1.000 |
+| LSD 41 LL              | 21  | 62   | 0.667  | 0.559 |
+| LHA LL                 | 31  | 63   | 0.484  | 0.309 |
+| Commander              | 32  | 68   | 0.844  | 0.743 |
+| Other Auxiliary Ship   | 18  | 113  | 0.389  | 0.259 |
+| Medical Ship           | 5   | 13   | 0.800  | 0.818 |
+| Test Ship              | 7   | 32   | 0.429  | 0.455 |
+| Training Ship          | 11  | 28   | 0.636  | 0.371 |
+| AOE                    | 11  | 28   | 1.000  | 1.000 |
+| Masyuu AS              | 8   | 34   | 0.875  | 0.716 |
+| Sanantonio AS          | 13  | 33   | 0.846  | 0.769 |
+| EPF                    | 10  | 24   | 0.900  | 0.852 |
+| Other Merchant         | 50  | 198  | 0.160  | 0.075 |
+| Container Ship         | 72  | 221  | 0.431  | 0.255 |
+| RoRo                   | 20  | 40   | 0.550  | 0.396 |
+| Cargo                  | 169 | 377  | 0.521  | 0.361 |
+| Barge                  | 22  | 193  | 0.136  | 0.107 |
+| Tugboat                | 46  | 202  | 0.283  | 0.215 |
+| Ferry                  | 53  | 215  | 0.340  | 0.261 |
+| Yacht                  | 140 | 254  | 0.429  | 0.237 |
+| Sailboat               | 341 | 222  | 0.015  | 0.013 |
+| Fishing Vessel         | 99  | 426  | 0.091  | 0.025 |
+| Oil Tanker             | 32  | 100  | 0.312  | 0.241 |
+| Hovercraft             | 31  | 78   | 0.548  | 0.360 |
+| Motorboat              | 398 | 945  | 0.015  | 0.003 |
+| Dock                   | 154 | 546  | 0.266  | 0.185 |
++------------------------+-----+------+--------+-------+
+| mAP                    |     |      |        | 0.436 |
++------------------------+-----+------+--------+-------+
+
+---------------iou_thr: 0.9---------------
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+
++------------------------+-----+------+--------+-------+
+| class                  | gts | dets | recall | ap    |
++------------------------+-----+------+--------+-------+
+| Other Ship             | 297 | 1142 | 0.104  | 0.051 |
+| Other Warship          | 209 | 775  | 0.167  | 0.104 |
+| Submarine              | 171 | 230  | 0.035  | 0.091 |
+| Other Aircraft Carrier | 4   | 25   | 0.500  | 0.273 |
+| Enterprise             | 18  | 40   | 0.556  | 0.467 |
+| Nimitz                 | 19  | 39   | 0.579  | 0.469 |
+| Midway                 | 5   | 15   | 0.400  | 0.345 |
+| Ticonderoga            | 77  | 120  | 0.286  | 0.105 |
+| Other Destroyer        | 46  | 199  | 0.217  | 0.023 |
+| Atago DD               | 41  | 110  | 0.293  | 0.140 |
+| Arleigh Burke DD       | 130 | 190  | 0.500  | 0.383 |
+| Hatsuyuki DD           | 22  | 76   | 0.182  | 0.038 |
+| Hyuga DD               | 16  | 25   | 0.438  | 0.321 |
+| Asagiri DD             | 14  | 67   | 0.500  | 0.234 |
+| Other Frigate          | 28  | 131  | 0.179  | 0.143 |
+| Perry FF               | 77  | 149  | 0.325  | 0.199 |
+| Patrol                 | 37  | 70   | 0.108  | 0.028 |
+| Other Landing          | 18  | 77   | 0.056  | 0.023 |
+| YuTing LL              | 19  | 36   | 0.105  | 0.127 |
+| YuDeng LL              | 11  | 28   | 0.091  | 0.045 |
+| YuDao LL               | 5   | 11   | 0.000  | 0.000 |
+| YuZhao LL              | 6   | 19   | 0.167  | 0.030 |
+| Austin LL              | 27  | 44   | 0.407  | 0.278 |
+| Osumi LL               | 6   | 12   | 0.667  | 0.545 |
+| Wasp LL                | 6   | 10   | 0.667  | 0.618 |
+| LSD 41 LL              | 21  | 62   | 0.429  | 0.436 |
+| LHA LL                 | 31  | 63   | 0.097  | 0.015 |
+| Commander              | 32  | 68   | 0.438  | 0.286 |
+| Other Auxiliary Ship   | 18  | 113  | 0.167  | 0.061 |
+| Medical Ship           | 5   | 13   | 0.600  | 0.409 |
+| Test Ship              | 7   | 32   | 0.286  | 0.182 |
+| Training Ship          | 11  | 28   | 0.273  | 0.091 |
+| AOE                    | 11  | 28   | 0.636  | 0.512 |
+| Masyuu AS              | 8   | 34   | 0.500  | 0.312 |
+| Sanantonio AS          | 13  | 33   | 0.462  | 0.322 |
+| EPF                    | 10  | 24   | 0.700  | 0.601 |
+| Other Merchant         | 50  | 198  | 0.080  | 0.014 |
+| Container Ship         | 72  | 221  | 0.167  | 0.070 |
+| RoRo                   | 20  | 40   | 0.250  | 0.134 |
+| Cargo                  | 169 | 377  | 0.254  | 0.173 |
+| Barge                  | 22  | 193  | 0.045  | 0.015 |
+| Tugboat                | 46  | 202  | 0.043  | 0.018 |
+| Ferry                  | 53  | 215  | 0.132  | 0.103 |
+| Yacht                  | 140 | 254  | 0.107  | 0.033 |
+| Sailboat               | 341 | 222  | 0.000  | 0.000 |
+| Fishing Vessel         | 99  | 426  | 0.030  | 0.008 |
+| Oil Tanker             | 32  | 100  | 0.125  | 0.102 |
+| Hovercraft             | 31  | 78   | 0.194  | 0.107 |
+| Motorboat              | 398 | 945  | 0.000  | 0.000 |
+| Dock                   | 154 | 546  | 0.045  | 0.023 |
++------------------------+-----+------+--------+-------+
+| mAP                    |     |      |        | 0.182 |
++------------------------+-----+------+--------+-------+
+
+---------------iou_thr: 0.95---------------
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+
++------------------------+-----+------+--------+-------+
+| class                  | gts | dets | recall | ap    |
++------------------------+-----+------+--------+-------+
+| Other Ship             | 297 | 1142 | 0.010  | 0.004 |
+| Other Warship          | 209 | 775  | 0.005  | 0.004 |
+| Submarine              | 171 | 230  | 0.000  | 0.000 |
+| Other Aircraft Carrier | 4   | 25   | 0.250  | 0.068 |
+| Enterprise             | 18  | 40   | 0.111  | 0.044 |
+| Nimitz                 | 19  | 39   | 0.105  | 0.028 |
+| Midway                 | 5   | 15   | 0.000  | 0.000 |
+| Ticonderoga            | 77  | 120  | 0.013  | 0.003 |
+| Other Destroyer        | 46  | 199  | 0.043  | 0.003 |
+| Atago DD               | 41  | 110  | 0.000  | 0.000 |
+| Arleigh Burke DD       | 130 | 190  | 0.046  | 0.013 |
+| Hatsuyuki DD           | 22  | 76   | 0.000  | 0.000 |
+| Hyuga DD               | 16  | 25   | 0.062  | 0.011 |
+| Asagiri DD             | 14  | 67   | 0.000  | 0.000 |
+| Other Frigate          | 28  | 131  | 0.000  | 0.000 |
+| Perry FF               | 77  | 149  | 0.065  | 0.091 |
+| Patrol                 | 37  | 70   | 0.000  | 0.000 |
+| Other Landing          | 18  | 77   | 0.000  | 0.000 |
+| YuTing LL              | 19  | 36   | 0.053  | 0.018 |
+| YuDeng LL              | 11  | 28   | 0.000  | 0.000 |
+| YuDao LL               | 5   | 11   | 0.000  | 0.000 |
+| YuZhao LL              | 6   | 19   | 0.167  | 0.030 |
+| Austin LL              | 27  | 44   | 0.000  | 0.000 |
+| Osumi LL               | 6   | 12   | 0.000  | 0.000 |
+| Wasp LL                | 6   | 10   | 0.000  | 0.000 |
+| LSD 41 LL              | 21  | 62   | 0.000  | 0.000 |
+| LHA LL                 | 31  | 63   | 0.000  | 0.000 |
+| Commander              | 32  | 68   | 0.031  | 0.009 |
+| Other Auxiliary Ship   | 18  | 113  | 0.000  | 0.000 |
+| Medical Ship           | 5   | 13   | 0.000  | 0.000 |
+| Test Ship              | 7   | 32   | 0.000  | 0.000 |
+| Training Ship          | 11  | 28   | 0.091  | 0.008 |
+| AOE                    | 11  | 28   | 0.000  | 0.000 |
+| Masyuu AS              | 8   | 34   | 0.000  | 0.000 |
+| Sanantonio AS          | 13  | 33   | 0.000  | 0.000 |
+| EPF                    | 10  | 24   | 0.100  | 0.182 |
+| Other Merchant         | 50  | 198  | 0.000  | 0.000 |
+| Container Ship         | 72  | 221  | 0.000  | 0.000 |
+| RoRo                   | 20  | 40   | 0.000  | 0.000 |
+| Cargo                  | 169 | 377  | 0.018  | 0.010 |
+| Barge                  | 22  | 193  | 0.000  | 0.000 |
+| Tugboat                | 46  | 202  | 0.000  | 0.000 |
+| Ferry                  | 53  | 215  | 0.019  | 0.010 |
+| Yacht                  | 140 | 254  | 0.000  | 0.000 |
+| Sailboat               | 341 | 222  | 0.000  | 0.000 |
+| Fishing Vessel         | 99  | 426  | 0.000  | 0.000 |
+| Oil Tanker             | 32  | 100  | 0.000  | 0.000 |
+| Hovercraft             | 31  | 78   | 0.000  | 0.000 |
+| Motorboat              | 398 | 945  | 0.000  | 0.000 |
+| Dock                   | 154 | 546  | 0.006  | 0.011 |
++------------------------+-----+------+--------+-------+
+| mAP                    |     |      |        | 0.011 |
++------------------------+-----+------+--------+-------+
+OrderedDict([('mAP', 0.5580267117358744), ('AP50', 0.7457), ('AP55', 0.738), ('AP60', 0.7319), ('AP65', 0.7249), ('AP70', 0.7123), ('AP75', 0.6805), ('AP80', 0.6181), ('AP85', 0.4357), ('AP90', 0.1822), ('AP95', 0.011)])
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '
+/home/zhr/anaconda3/envs/submission/lib/python3.7/site-packages/mmcv/__init__.py:21: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  'On January 1, 2023, MMCV will release v2.0.0, in which it will remove '

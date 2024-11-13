@@ -127,3 +127,17 @@ Figure 1. Confusion matrices of detection results (\%) obtained from FCOS w/o OM
 
 Figure 2. The three-dimensional distribution of three main easily confused classes in FAIR1M-v1.0 obtained from FCOS w/o OM (top) and FCOS w/ OM (bottom). (a) Airplane. (b) Ship. (c) Vehicle.
 ![demo image](figures/detailedvis.png)
+
+## Citation
+If you find this work helpful, please consider citing:
+```bibtex
+@misc{zhu2024enhancingfinegrainedobjectdetection,
+      title={Enhancing Fine-grained Object Detection in Aerial Images via Orthogonal Mapping}, 
+      author={Haoran Zhu and Yifan Zhou and Chang Xu and Ruixiang Zhang and Wen Yang},
+      year={2024},
+      eprint={2407.17738},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.17738}, 
+}
+```

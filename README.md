@@ -1,7 +1,9 @@
 # Enhancing Fine-grained Object Detection in Aerial Images via Orthogonal Mapping
-This is the official implementation of the paper "Enhancing Fine-grained Object Detection in Aerial Images via Orthogonal Mapping".
+# Towards Balanced Supervision: Cumulative Quality-based Dynamic Assignment for Fine-Grained Remote Sensing Object Detection
+This is the official implementation of the paper "Enhancing Fine-grained Object Detection in Aerial Images via Orthogonal Mapping" and "Towards Balanced Supervision: Cumulative Quality-based Dynamic Assignment for Fine-Grained Remote Sensing Object Detection".
 
 ## :white_check_mark: Updates
+* **`March. 4th, 2026`**: Update: We introduce **CQDA**, a dynamic balanced label assignment algorithm specifically engineered for fine-grained recognition tasks. Furthermore, we enhance the orthogonal head by incorporating learnable parameters to ensure more robust representation learning. Additionally, a low-frequency guided high-frequency feature enhancement module is proposed to refine feature integration. Notably, these components are **plug-and-play** and can be seamlessly integrated into various detectors to consistently boost performance.
 * **`June. 9th, 2024`**: Update: **Important!** we release the **FCOS w/ OM**, **RetinaNet w/ OM**, **Faster R-CNN w/ OM**, and **PETDet w/ OM** models.
 
 ## Introduction
